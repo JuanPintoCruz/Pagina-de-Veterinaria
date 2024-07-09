@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+    
+<!-- Mirrored from coderthemes.com/ubold/light/layout-menu-small.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Nov 2018 20:26:19 GMT -->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <title>Ubold - Responsive Admin Dashboard Template</title>
+		
+		<link href="../plugins/footable/css/footable.bootstrap.min.css" rel="stylesheet">
+        <link href="../plugins/footable/css/FooTable.FontAwesome.css" rel="stylesheet">
+		
+		
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <script src="assets/js/modernizr.min.js"></script>
+
+
+    </head>
+
+
+    <body class="fixed-left">
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Top Bar Start -->
+            <div class="topbar">
+
+                <!-- LOGO -->
+				
+                <div class="topbar-left topbar-left-sm">
+                    <div class="text-center">
+
+                        <a href="" class="logo"><i class="icon-magnet icon-c-logo"></i><span>CSIFACT</span></a>
+                        <!-- Image Logo here -->
+                        <!--<a href="index.html" class="logo">-->
+                        <!--<i class="icon-c-logo"> <img src="assets/images/logo_sm.png" height="42"/> </i>-->
+                        <!--<span><img src="assets/images/logo_light.png" height="20"/></span>-->
+                        <!--</a>-->
+                    </div>
+                </div>
+
+                <!-- Button mobile view to collapse sidebar menu -->
+                <nav class="navbar-custom">
+
+                    <ul class="list-inline float-right mb-0">
+                        <li class="list-inline-item dropdown notification-list">
+							<a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
+                               aria-haspopup="false" aria-expanded="false">
+                                <i class="dripicons-bell noti-icon"></i>
+                                <span class="badge badge-pink noti-icon-badge">4</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-lg" aria-labelledby="Preview">
+                                <!-- item-->
+                                <div class="dropdown-item noti-title">
+                                    <h5><span class="badge badge-danger float-right">5</span>Notification</h5>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-success"><i class="icon-bubble"></i></div>
+                                    <p class="notify-details">Robert S. Taylor commented on Admin<small class="text-muted">1 min ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-info"><i class="icon-user"></i></div>
+                                    <p class="notify-details">New user registered.<small class="text-muted">1 min ago</small></p>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <div class="notify-icon bg-danger"><i class="icon-like"></i></div>
+                                    <p class="notify-details">Carlos Crouch liked <b>Admin</b><small class="text-muted">1 min ago</small></p>
+                                </a>
+
+                                <!-- All-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item notify-all">
+                                    View All
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="list-inline-item notification-list">
+                            <a class="nav-link waves-light waves-effect" href="#" id="btn-fullscreen">
+                                <i class="dripicons-expand noti-icon"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item notification-list">
+                            <a class="nav-link right-bar-toggle waves-light waves-effect" href="#">
+                                <i class="dripicons-message noti-icon"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item dropdown notification-list">
+                            <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                               aria-haspopup="false" aria-expanded="false">
+                                <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
+                                <!-- item-->
+                                <div class="dropdown-item noti-title">
+                                    <h5 class="text-overflow"><small>Welcome ! John</small> </h5>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="md md-account-circle"></i> <span>Profile</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="md md-settings"></i> <span>Settings</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="md md-lock-open"></i> <span>Lock Screen</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="md md-settings-power"></i> <span>Logout</span>
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <ul class="list-inline menu-left mb-0">
+                        <li class="float-left">
+                            <button class="button-menu-mobile open-left waves-light waves-effect">
+                                <i class="dripicons-menu"></i>
+                            </button>
+                        </li>
+                        <li class="hide-phone app-search">
+						<!--<a href="" ><i class="icon-magnet icon-c-logo"></i><span><i class="md md-album"></i>ld</span></a>-->
+							<h3 class="" style="text-align:center;color:white;margin-top:-1px;">REMESAS LA VINOTINTO</h3>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+            <!-- Top Bar End -->
+
+
+            <!-- ========== Left Sidebar Start ========== -->
+
+            <div class="left side-menu side-menu-sm">
+                <div class="sidebar-inner slimscrollleft">
+                    <!--- Divider -->
+                    <div id="sidebar-menu">
+                        <ul>
+
+                            <li class="has_sub">
+                                <a href="remesas.html" class="waves-effect"><i class="ti-shopping-cart"></i><span> Remesas </span></a>
+                            </li>
+							
+                            <li class="has_sub">
+                                <a href="cliente.html" class="waves-effect"><i class="ti-user"></i><span> Clientes </span> </a>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="banco.html" class="waves-effect"><i class="ti-home"></i> <span> Bancos </span> </a>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="tipo_cambio.html" class="waves-effect"><i class="ti-money"></i><span>Tipo De Cambio </span> </a>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="comision.html" class="waves-effect"><i class="ti-stats-up"></i><span> Comisiones </span></a>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="reporte.html" class="waves-effect"><i class="ti-widget"></i><span> Reportes </span> </a>
+                            </li>
+
+
+
+
+
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- Left Sidebar End -->
+
+
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="content-page">
+                <!-- Start content -->
+                <div class="content">
+                    <div class="container-fluid">
+
+                        <!-- Page-Title -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4 class="page-title">Remesas</h4>
+                            </div>
+                        </div>
+						<BR><BR>
+						
+						
+						
+						<!--TABLA DISEÑO-->
+						<div class="row">
+                            <div class="col-sm-12">
+                                <div class="card-box">
+
+								<!--------------------------------------------------------------------------------------
+								-------------------------TABLA DE CLIENTE Y ASOCIADO----------------------------------->
+								
+								<div class="input-group mb-3" style="width:500px;">
+								  <input type="text" class="form-control" placeholder="Buscar Cliente.." aria-label="Recipient's username" aria-describedby="basic-addon2">
+								  <div class="input-group-append">
+									<button class="btn btn-outline-secondary ti-search" type="button"></button>
+								  </div>
+								</div>
+                           <table id="footable_1" class="table" data-sorting="true">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>NOMBRES</th>
+                                                <th>PASAPORTE</th>
+                                                <th>BANCO</th>
+                                                <th>N° CUENTA</th>
+												<th></th>
+												
+                                            </tr>
+                                        </thead>
+										<TR>    
+											<TH>CLIENTE</TH><TD>ALEJANDRO JHONATAN CALLIRGOS FERNANDEZ</TD><TD>76654413</TD>
+										</TR>
+                                         <TR>    
+											<TH>ASOCIADO</TH><TD>Bill Junior Gonsalez Torrez</TD><TD>45612378</TD><TD>Banco Nacional De Venezuela</TD><TD>78945612345678945612</TD><TD><button class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm1">DEPOSITAR</button></TD>
+										</TR>
+										 <TR>    
+											<TH>ASOCIADO</TH><TD>Luisa Maria Castro Velarde</TD><TD>65432178</TD><TD>Banco Nacional De Venezuela</TD><TD>132332343213213</TD><TD><button class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm1">DEPOSITAR</button></TD>
+										</TR>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+									<div class="modal fade" id="modalLoginForm1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+									  aria-hidden="true" >
+									  <div class="modal-dialog" role="document" >
+										<div class="modal-content" style="width:600px">
+										  <div class="modal-header text-center" >
+											<h4 class="modal-title w-100 font-weight-bold">transaccion</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+											<div class="modal-body mx-3">
+											<div class="md-form mb-4">
+											  <label data-error="wrong" data-success="right">NOMBRES: Bill Junior Gonsalez Torrez </label>
+											</div>
+											<br>
+											<div class="md-form mb-4">
+											  <label data-error="wrong" data-success="right">BANCO: Banco Nacional Del Venezuela</label>&nbsp&nbsp&nbsp&nbsp<label data-error="wrong" data-success="right">N° CUENTA: 78945612321456789547</label>
+											</div>
+											<br>
+											<div class="modal-footer d-flex justify-content-center">
+												<div class="radio radio-info">
+													<input type="radio" name="radio" id="radio1" value="option5" checked>
+													<label for="radio1">
+														Efectivo
+													</label>
+												</div>
+												<div class="radio radio-info">
+													<input type="radio" name="radio" id="radio3" value="option5" >
+													<label for="radio3">
+														Deposito
+													</label>
+												</div>
+												<div class="radio radio-info">
+													<input type="radio" name="radio" id="radio2" value="option5" >
+													<label for="radio2">
+														Transaccion
+													</label>
+												</div>
+												</div>
+												<div class="modal-footer d-flex justify-content-center">
+												<div>
+											  <label data-error="wrong" data-success="right">CANTITAD</label>
+											  <input type="text" id="Precio" class="form-control validate monto" onkeyup="multi();" style="width:100px">
+											  </div>
+											  <LABEL style="margin-top:2px">X</LABEL>
+											<div>
+											  <label data-error="wrong" data-success="right">T.CAMBIO</label>
+											  <input type="text"  class="form-control validate monto" onkeyup="multi();" style="width:100px">
+											  </div>
+											  
+											</div>
+											<div class="modal-footer d-flex justify-content-center">
+                                                <div class="checkbox checkbox-info">
+                                                    <input id="checkbox1" type="checkbox" checked>
+                                                    <label for="checkbox1">
+                                                        Cliente
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox checkbox-info">
+                                                    <input id="checkbox2" type="checkbox">
+                                                    <label for="checkbox2">
+                                                        Amigos
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox checkbox-info">
+                                                    <input id="checkbox3" type="checkbox">
+                                                    <label for="checkbox3">
+                                                        Mayorista
+                                                    </label>
+                                                </div>
+												</div>
+												<br>
+												<div class="modal-footer d-flex justify-content-center">
+												<label data-error="wrong" data-success="right">TOTAL A DEPOSITAR:</label>
+											  <input id="Costo" type="text"  class="form-control validate" style="width:150px">
+											</div>
+											
+										  </div>
+										  <div class="modal-footer d-flex justify-content-center">
+											<button class="btn btn-default" data-toggle="modal" >Enviar</button>
+											<button class="btn btn-danger" data-toggle="modal" data-dismiss="modal" aria-label="Close" >Cancelar</button>
+										  </div>
+										</div>
+									  </div>  </div>
+									  <script>
+									  function multi(){
+									  var total=0;
+									  var change=false;
+									  $(".monto").each(function(){
+									  if(!isNaN(parseFlost($(this).vl()))){
+									  change=True;
+									  total*=parseFloat($(this).val;
+									  }
+									  });
+									  total=(change)? total:0;
+									  document.getElementById('Costo').innerHTML=total;
+									  }
+									  </script>
+
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <footer class="footer text-right">
+                    &copy; 2016 - 2018. All rights reserved.
+                </footer>
+
+            </div>
+
+
+            <!-- ============================================================== -->
+            <!-- End Right content here -->
+            <!-- ============================================================== -->
+
+
+            <!-- Right Sidebar -->
+            <div class="side-bar right-bar nicescroll">
+                <h4 class="text-center">Chat</h4>
+                <div class="contact-list nicescroll">
+                    <ul class="list-group contacts-list">
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-1.jpg" alt="">
+                                </div>
+                                <span class="name">Chadengle</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-2.jpg" alt="">
+                                </div>
+                                <span class="name">Tomaslau</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-3.jpg" alt="">
+                                </div>
+                                <span class="name">Stillnotdavid</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-4.jpg" alt="">
+                                </div>
+                                <span class="name">Kurafire</span>
+                                <i class="fa fa-circle online"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-5.jpg" alt="">
+                                </div>
+                                <span class="name">Shahedk</span>
+                                <i class="fa fa-circle away"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-6.jpg" alt="">
+                                </div>
+                                <span class="name">Adhamdannaway</span>
+                                <i class="fa fa-circle away"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-7.jpg" alt="">
+                                </div>
+                                <span class="name">Ok</span>
+                                <i class="fa fa-circle away"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-8.jpg" alt="">
+                                </div>
+                                <span class="name">Arashasghari</span>
+                                <i class="fa fa-circle offline"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-9.jpg" alt="">
+                                </div>
+                                <span class="name">Joshaustin</span>
+                                <i class="fa fa-circle offline"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#">
+                                <div class="avatar">
+                                    <img src="assets/images/users/avatar-10.jpg" alt="">
+                                </div>
+                                <span class="name">Sortino</span>
+                                <i class="fa fa-circle offline"></i>
+                            </a>
+                            <span class="clearfix"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Right-bar -->
+
+        </div>
+        <!-- END wrapper -->
+
+
+
+        <script>
+            var resizefunc = [];
+        </script>
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script><!-- Popper for Bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/detect.js"></script>
+        <script src="assets/js/fastclick.js"></script>
+        <script src="assets/js/jquery.slimscroll.js"></script>
+        <script src="assets/js/jquery.blockUI.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/js/jquery.scrollTo.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jequery/3.1.0/jquery.min.js"></script>
+				
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+		
+		 <!--FooTable-->
+		<script src="../plugins/footable/js/footable.min.js"></script>
+		<!--FooTable Example-->
+        <script src="assets/pages/jquery.footable.js"></script>
+
+
+    </body>
+
+<!-- Mirrored from coderthemes.com/ubold/light/layout-menu-small.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Nov 2018 20:26:19 GMT -->
+</html>
